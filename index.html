@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Liam Brophy Developer Test</title>
+        <!-- Import the style sheet -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onLoad="setupCards()">
+        <!-- The div to hold the cards -->
+        <div id="card_container"></div>
+        <!-- The div to hold the buttons -->
+        <div id="button_area">
+            <button onClick="toggleKittens()" title="Toggles kittens on the inactive cards">Toggle Kittens</button>
+            <button onClick="addCard()" title="Adds another card to the deck">Add Card</button>
+            <button onClick="removeCard()" title="Removes a card from the deck">Remove Card</button>
+        </div>
+        
+        <!-- Import script -->
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

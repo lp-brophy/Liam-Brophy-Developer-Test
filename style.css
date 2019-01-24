@@ -1,0 +1,49 @@
+/*
+ * Style Sheet
+ */
+ 
+.card {
+    width: 250px;
+    height: 350px;
+    line-height: 350px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 100px;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+#button_area {
+    position: fixed;
+    bottom: 2.5%;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+#card_container {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    text-align: center;
+    overflow: auto;
+}
+
+/*
+ * Active and Inactive classes for the cards
+ */
+.active {
+    background-color: #00FF00;
+}
+
+.inactive {
+    background-color: #FF0000;
+}
